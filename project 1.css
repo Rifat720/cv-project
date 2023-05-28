@@ -1,0 +1,99 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	  background-color:#333333;
+	  font-family: system-ui;
+	  
+}
+.css{
+	 max-width:1000px;
+	 background-color:#4c80b5;
+	 margin: 0 auto;
+	 padding:20px;
+}
+.img{
+	height:100px;
+	width:120px;
+	border:3px solid green;
+	border-radius:50%;
+	float:left;
+}
+.head{
+	float:left;
+	padding:30px;
+}
+h1,h2,h3,h4,h5{
+	color:green;
+}
+.head1{
+	float:right;
+	padding:30px;
+}
+.head1 a:hover{
+	color:#874e7a;
+	text-decoration:underline;
+}
+.head1 a{
+	text-decoration:none;
+	color:green;
+	font-weight:bold;
+}
+.clear{
+	clear:both;
+}
+hr{
+	border:solid #4e366d 3px;
+	width:100%;
+	margin:20px auto;
+    border-bottom:none;
+	
+}
+/*-----------
+personal section
+-------------*/	
+#personal-information{
+	margin-bottom:30px;
+}
+.left-div{
+    width:30%;
+    float:left;	
+}
+.right-div{
+	width:70%;
+	float:right;
+}
+.common-hr{
+	border:solid #4e366d 2px;
+	border-bottom:none;
+	width:100%;
+	margin:20 px auto;
+}
+.right-div-right{
+   float:left;	
+   width:50%
+}
+.right-div-left{
+   float:right;
+    width:40%
+}
+.footer{
+	background-color:black;
+	text-align:center;
+	padding:10px;
+}
+.footer a{
+	color:white;
+	text-decoration:none;
+	margin:20px;
+}
+.footer p{
+	color:white;
+	text-decoration:none;
+	margin:20px;
+}
+.footer a:hover{
+	text-decoration:underline;
+	color:blue;
+}
